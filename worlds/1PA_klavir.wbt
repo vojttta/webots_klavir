@@ -3,12 +3,72 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation -0.6931032800836722 0.6931032800836722 0.1980295085953349 0.75
-  position 1.2 1.6 2.3
+  orientation 0.15358628884844358 0.8391414290547732 0.5217786062322555 3.6142484978625786
+  position -0.463352179131103 1.0327756153896044 -0.5349885634629261
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 RectangleArena {
+  floorSize 2 2
+}
+TinkerbotsBase {
+  translation 0 0.02 0
+  leftSlot TinkerbotsCube {
+    upSlot TinkerbotsCube {
+      upSlot TinkerbotsCube {
+        upSlot TinkerbotsCube {
+          upSlot TinkerbotsCube {
+            upSlot TinkerbotsCube {
+              upSlot TinkerbotsCube {
+                leftSlot TinkerbotsDistanceSensor {
+                  name "dsl4"
+                }
+              }
+            }
+            leftSlot TinkerbotsDistanceSensor {
+              name "dsl3"
+            }
+          }
+        }
+        leftSlot TinkerbotsDistanceSensor {
+          name "dsl2"
+        }
+      }
+    }
+    leftSlot TinkerbotsDistanceSensor {
+      name "dsl1"
+    }
+  }
+  rightSlot TinkerbotsCube {
+    upSlot TinkerbotsCube {
+      upSlot TinkerbotsCube {
+        upSlot TinkerbotsCube {
+          upSlot TinkerbotsCube {
+            upSlot TinkerbotsCube {
+              upSlot TinkerbotsCube {
+                rightSlot TinkerbotsDistanceSensor {
+                  name "dsr4"
+                }
+              }
+            }
+            rightSlot TinkerbotsDistanceSensor {
+              name "dsr3"
+            }
+          }
+        }
+        rightSlot TinkerbotsDistanceSensor {
+          name "dsr2"
+        }
+      }
+    }
+    rightSlot TinkerbotsDistanceSensor {
+      name "dsr1"
+    }
+  }
+  extensionSlot [
+    Speaker {
+    }
+  ]
 }
