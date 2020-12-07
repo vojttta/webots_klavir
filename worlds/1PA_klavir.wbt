@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.15358628884844358 0.8391414290547732 0.5217786062322555 3.6142484978625786
-  position -0.463352179131103 1.0327756153896044 -0.5349885634629261
+  orientation 0.11932907337678218 0.9197173127069777 0.37400619908511407 3.696205833385137
+  position -0.36367784135994813 0.5404433448831819 -0.4668596891353698
 }
 TexturedBackground {
 }
@@ -15,6 +15,7 @@ RectangleArena {
 }
 TinkerbotsBase {
   translation 0 0.02 0
+  controller "nastroj"
   leftSlot TinkerbotsCube {
     upSlot TinkerbotsCube {
       upSlot TinkerbotsCube {

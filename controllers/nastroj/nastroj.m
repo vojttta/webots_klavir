@@ -62,6 +62,8 @@ sound_A = 'A1.wav';
 sound_H = 'H1.wav';
 sound_C2 = 'C2.wav';
 
+dist_conts = 10;
+
 
 while wb_robot_step(TIME_STEP) ~= -1
 
