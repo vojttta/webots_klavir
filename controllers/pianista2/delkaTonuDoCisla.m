@@ -8,6 +8,13 @@ function delka_tonu = delkaTonuDoCisla(delka_tonu)
         delka_tonu = 1/2;
     elseif delka_tonu == "CTVRTOVA"
         delka_tonu = 1/4;
+<<<<<<< HEAD
+    elseif delka_tonu == "OSMINOVA"
+        delka_tonu = 1/8;   
+    elseif delka_tonu == "SESTNACTINOVA"
+        delka_tonu = 1/16;
+=======
+>>>>>>> 9c0a5721c3d59a2ad27e355320e30a40f54e085e
     end
     
 end
