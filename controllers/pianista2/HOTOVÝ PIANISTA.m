@@ -45,7 +45,11 @@ off = 0;
 %wb_motor_set_position(pr3, -on);
 %wb_motor_set_position(pr4, -on);
 
+<<<<<<< HEAD
 noty = string(fileread('koledy_noty.txt'))
+=======
+noty = string(fileread('NOTY2.txt'))
+>>>>>>> 9c0a5721c3d59a2ad27e355320e30a40f54e085e
 lines = splitlines(noty)
 
 
