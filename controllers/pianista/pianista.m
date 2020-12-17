@@ -45,7 +45,7 @@ off = 0;
 %wb_motor_set_position(pr3, -on);
 %wb_motor_set_position(pr4, -on);
 
-noty = string(fileread('noty.txt'))
+noty = string(fileread('hudba.txt'))
 lines = splitlines(noty)
 
 
@@ -64,6 +64,7 @@ wb_motor_set_position(pr1, off);
 wb_motor_set_position(pr2, off);
 wb_motor_set_position(pr3, off);
 wb_motor_set_position(pr4, off);
+pause(0.01,TIME_STEP)
     nota = split(lines(i)," "); %1 = vyska tonu; 2 = delka tonu
     
     
@@ -103,6 +104,7 @@ wb_motor_set_position(pr4, off);
             disp('C2');
             wb_motor_set_position(pr4, on)
     end
+pause(1,TIME_STEP)
 end
 
   drawnow;
