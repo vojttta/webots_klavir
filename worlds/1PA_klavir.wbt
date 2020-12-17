@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.11932907337678218 0.9197173127069777 0.37400619908511407 3.696205833385137
-  position -0.36367784135994813 0.5404433448831819 -0.4668596891353698
+  orientation 0.5145266869742322 0.8415339181750253 0.16456899146652862 5.521393606623077
+  position -0.5084576839085191 0.3339260673304216 0.5263700901776871
 }
 TexturedBackground {
 }
@@ -14,7 +14,8 @@ RectangleArena {
   floorSize 2 2
 }
 TinkerbotsBase {
-  translation 0 0.02 0
+  translation -8.677720938200131e-06 0.020233074292918086 0.009130149519067406
+  rotation -0.9173687297327549 0.3979694217381133 0.007413033788114708 0.004360075593666709
   controller "nastroj"
   leftSlot TinkerbotsCube {
     upSlot TinkerbotsCube {
@@ -72,4 +73,98 @@ TinkerbotsBase {
     Speaker {
     }
   ]
+}
+TinkerbotsBase {
+  translation -0.00017138567405220736 0.020034745109041026 -0.07832511478948767
+  rotation -0.011888023265920502 0.9983690857714314 -0.05583765287639956 0.0021317523341769173
+  name "Tinkerbots(1)"
+  controller "pianista2"
+  leftSlot TinkerbotsCube {
+    upSlot TinkerbotsCube {
+      upSlot TinkerbotsCube {
+        upSlot TinkerbotsCube {
+          upSlot TinkerbotsCube {
+            upSlot TinkerbotsCube {
+              upSlot TinkerbotsCube {
+                upSlot TinkerbotsCube {
+                  leftSlot TinkerbotsCube {
+                  }
+                  rightSlot TinkerbotsCube {
+                  }
+                }
+                frontSlot TinkerbotsPivot {
+                  rotation 0 0 1 1.5707996938995747
+                  name "pl4"
+                  slot TinkerbotsCube {
+                  }
+                }
+              }
+            }
+            frontSlot TinkerbotsPivot {
+              rotation 0 0 1 1.5707996938995747
+              name "pl3"
+              slot TinkerbotsCube {
+              }
+            }
+          }
+        }
+        frontSlot TinkerbotsPivot {
+          rotation 0 0 1 1.5707996938995747
+          name "pl2"
+          slot TinkerbotsCube {
+          }
+        }
+      }
+    }
+    frontSlot TinkerbotsPivot {
+      rotation 0 0 1 1.5707996938995747
+      name "pl1"
+      slot TinkerbotsCube {
+      }
+    }
+  }
+  rightSlot TinkerbotsCube {
+    upSlot TinkerbotsCube {
+      upSlot TinkerbotsCube {
+        upSlot TinkerbotsCube {
+          upSlot TinkerbotsCube {
+            upSlot TinkerbotsCube {
+              upSlot TinkerbotsCube {
+                upSlot TinkerbotsCube {
+                  leftSlot TinkerbotsCube {
+                  }
+                  rightSlot TinkerbotsCube {
+                  }
+                }
+                frontSlot TinkerbotsPivot {
+                  rotation 0 0 1 1.5708003061004252
+                  name "pr4"
+                  slot TinkerbotsCube {
+                  }
+                }
+              }
+            }
+            frontSlot TinkerbotsPivot {
+              rotation 0 0 1 1.5707996938995747
+              name "pr3"
+              slot TinkerbotsCube {
+              }
+            }
+          }
+        }
+        frontSlot TinkerbotsPivot {
+          rotation 0 0 1 1.5708003061004252
+          name "pr2"
+          slot TinkerbotsCube {
+          }
+        }
+      }
+    }
+    frontSlot TinkerbotsPivot {
+      rotation 0 0 1 1.5707996938995747
+      name "pr1"
+      slot TinkerbotsCube {
+      }
+    }
+  }
 }
